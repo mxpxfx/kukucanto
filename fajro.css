@@ -1,0 +1,174 @@
+@charset "UTF-8";
+mystyle {
+	hi:everybody;
+}
+/*все ссылки ч/б*/
+a {
+	color: #000;
+}
+a:hover {
+	color: #999;
+}
+.logo {
+			width: 2.5em;
+			height: 2.5em;
+			position: absolute;
+			left: 5em;
+			top: 1em;
+		}
+
+/*значок ссылки на главную страницу*/
+.fhome {
+	color: black;
+	font-size: 1.4em;
+}
+.fhome img {
+	width: 50px;
+}
+
+	/* заголовок страницы галереи */
+.ptitle{
+			font-size: .96em;
+			font-family: 'PT Sans', sans-serif;
+			font-weight: normal;
+			letter-spacing: 1em;
+			text-align: center;
+			padding-top: 1em;
+		}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	/* заголовок страницы */
+	.ptitle{
+		padding-left: 5em;
+		text-align: left;
+		}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	/* заголовок страницы */	
+	.ptitle{
+		padding-left: 10em;
+		text-align: left;
+		}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	/* заголовок страницы */
+	.ptitle{
+		padding-left: 15.5em;
+		text-align: left;
+		}
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	/* заголовок страницы */
+		.ptitle{
+			padding-left: 15.5em;
+			text-align: left;
+		}
+}
+/*---------------------------------*/
+
+.grid-guide > div {
+	border: 1px solid #eee;
+	height: 20px;
+}
+.grid-view{
+	display: none;
+}
+
+.Monofont {
+    font-family: 'PT Mono', monospace;
+}
+.Seriffont {
+    font-family: 'PT Serif', serif;
+}
+.Sansfont {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.size08{
+	font-size: 0.8em;
+}
+
+/*партитуры Кирилла*/
+.text-score  {
+    font-size: 0.8em;
+    white-space: pre-wrap;
+    Wfont-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    font-family: 'PT Mono', monospace;
+	border-bottom-style: solid;
+    border-bottom-width: thin;
+	border-bottom-color: #DDD;
+	margin: 3em 0;
+}
+.KirillDate {
+	letter-spacing: 0.1em;
+}
+
+/*переводы Клерво*/
+.poetry-translation {
+    white-space: pre-line;
+	font-family: 'PT Mono', monospace;
+}
+.ClervauxProse {
+	font-family: 'PT Mono', monospace;
+	wfont-size: 0.8em;
+}
+.poetry-footnote {
+	line-height: 1.2em;
+}
+.highlines {
+	line-height: 3em;
+}
+
+/*интервью с Клерво*/
+/*.iQ::before {
+	content:"\2014\2002";
+	content:"Е.Б.: ";
+	font-weight: bold;
+}
+.iA::before {
+	content:"\2014\2002";
+	content:"Р.К.: ";
+	font-weight: bold;
+}*/
+.iQ,.iQ1 {
+	font-style: italic;
+}
+.iQ i, .iQ1 i {
+	letter-spacing: 0.5em;
+}
+.iQ i::before {
+	content:"\2009";
+}
+/*статья Фёгелин*/
+.ref{
+	font-size: 0.8em;
+	line-height: 2.2em;
+}
+.translator {
+	font-weight: 600;
+}
+.biblio {
+	font-size: 0.8em;
+}
+
+.mailsign{
+	width: 16px;
+	height: 16px;
+display: inline-block;
+	vertical-align: text-bottom;
+	}
+.coal{
+}
+.mpartis {
+	font-size: 0.8em;
+}
+.mpartis p {
+	margin-bottom: 0em;
+}
