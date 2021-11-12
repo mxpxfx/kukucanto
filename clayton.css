@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*clayton*/
+.left3b0 p{
+	text-indent: 3em;
+}
+.left3 p{
+	text-indent: 3em;
+	margin-bottom: 0;
+}
+
+.left3h5{
+	text-indent: 3em;
+	margin-bottom: 1em;
+}
+
+.p0 p{
+	margin-top: -1em;
+}
+.p00 {
+	margin-top: -1em;
+	margin-bottom: 0;
+}
+.pleft10b {
+	margin-left: 10em;
+	margin-bottom: 0;
+	margin-top: -1em;
+}
+.pleft10 {
+	margin-left: 10em;
+	margin-bottom: 0;
+}
+.pleft11 {
+	margin-left: 11em;
+	margin-bottom: 0;
+}
+.pleft10m {
+	margin-left: 10em;
+	margin-top: 0em;
+}
+.pleft8 {
+	margin-left: 8em;
+	margin-bottom: 0;
+	margin-top: -1em;
+}
+.pleft9 {
+	margin-left: 9em;
+	margin-bottom: 0;
+}
+.pleft2 {
+	margin-left: 2em;
+	margin-bottom: 0;
+}
+.pleft3 {
+	margin-left: 3em;
+	margin-bottom: 0;
+}
+.pleft4 {
+	margin-left: 4em;
+	margin-bottom: 0;
+}
+.pleft16 {
+	margin-left: 16em;
+	margin-bottom: 0;
+}
+.pleft0 {
+	margin-left: 0em;
+	margin-bottom: 0em;
+}
+.pleft0m {
+	margin-left: 0em;
+}
+
+.fs-6{
+	font-size: 0.8em;
+}
+
+.eshcit{
+	margin-left: 3em;
+	font-style: italic;
+}
